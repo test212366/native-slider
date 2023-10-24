@@ -1,0 +1,32 @@
+.slider-wrapper {
+	position: relative;
+	width: 300px;
+	margin: 0 auto;
+	height: 200px;
+	overflow: hidden;
+}
+.slider-item {
+	display: none;
+}
+.slider-item.active {
+	display: block;
+}
+.slider-item img {
+	height: 200px;
+	width: 300px;
+	block-size: cover;
+}
+#Nextbtn {
+	position: absolute;
+	height: 100%;
+	width: 10px;
+	right: 0;
+	top: 0;
+}
+#Prevbtn {
+	position: absolute;
+	height: 100%;
+	width: 10px;
+	left: 0;
+	top: 0;
+}
